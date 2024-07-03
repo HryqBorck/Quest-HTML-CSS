@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+  font-size: 62.5%;
+}
+
+body{
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 1440px;
+
+  background: var(--background-color) url(../images/bg-desktop.svg)  no-repeat;
+  background-size: contain;
+  font-family: "open sans", sans-serif;
+}
+
+header{
+  min-height: 12rem;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 7.5rem;
+}
+
+header a {
+  max-width: 210px;
+}
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+
+  max-width: 1400px;
+  height: 70vh;
+  padding: 4rem 7rem;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero-description{
+  margin-top: 4.8rem;
+}
+
+.hero-description h1{
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: "poppins", sans-serif;
+  color: #fff;
+
+  margin-bottom: 2rem;
+}
+
+.hero-description p {
+  font-size: 1.9rem;
+  font-weight: 400;
+  font-family: "open sans", sans-serif;
+  color: #fff;
+
+  margin-bottom: 2rem;
+}
+
+.hero-description .btn-register{
+  padding: 1.5rem 7rem;
+  border-radius: 3rem ;
+  font-size: 2rem;
+  color: var(--btn-color);
+}
+
+.hero-description .btn-register:hover{
+  cursor: pointer;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+
+  min-height: 8rem;
+  font-size: 3rem;
+  margin-right: 7rem;
+}
+
+footer a{
+  border: solid #fff 3px;
+  border-radius: 50%;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+footer a:hover{
+  color: var(--btn-color);
+  border-color: var(--btn-color);
+}

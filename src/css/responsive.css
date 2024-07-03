@@ -1,0 +1,42 @@
+
+@media(max-width:1320px){
+    .hero-description h1{
+        font-size: 4rem;
+    }
+    
+    .hero-description p{
+        font-size: 1.7rem;
+    }
+}
+@media(max-width:1120px){
+    .hero{
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+    }
+
+    footer{
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+        margin: 0;
+    }
+
+}
+
+@media (max-width:480px){
+    .hero-description h1{
+        font-size: 3rem;
+    }
+
+    .hero-description p{
+        font-size: 1.4rem
+    }
+}
+
+@media(min-width:1500px){
+    body{
+        margin: 0 auto;
+    }
+}
